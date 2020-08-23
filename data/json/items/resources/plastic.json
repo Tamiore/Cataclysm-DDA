@@ -73,5 +73,20 @@
     "material": [ "plastic" ],
     "symbol": ")",
     "color": "light_blue"
+  },
+  {
+    "id": "small_plastic_sheet",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "small plastic sheet" },
+    "description": "This is a small sheet of flexible plastic, useful as a component in myriad of craft, but too small to be used as a working surface on it's own for most practical application.",
+    "weight": "50 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": [ "plastic" ],
+    "qualities": [ [ "SURFACE", 1 ] ],
+    "symbol": ")",
+    "color": "light_blue"
   }
 ]

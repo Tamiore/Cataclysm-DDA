@@ -3424,6 +3424,7 @@
       [
         [ "stopcock", 11 ],
         [ "button_plastic", 3 ],
+        [ "small_plastic_sheet", 3 ],
         [ "bottle_folding", 4 ],
         [ "plastic_straw", 3 ],
         [ "plastic_knife", 2 ],
@@ -4652,14 +4653,27 @@
   },
   {
     "type": "recipe",
+    "result": "small_plastic_sheet",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 }, { "id": "ANVIL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "bag_plastic",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINERS",
+    "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
-    "difficulty": 4,
-    "time": "15 m",
+    "difficulty": 0,
+    "time": "2 m",
     "autolearn": true,
-    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [ [ [ "plastic_chunk", 1 ] ] ]
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "small_plastic_sheet", 1 ] ], [ [ "superglue", 1 ] ] ]
   }
 ]
